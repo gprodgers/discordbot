@@ -211,7 +211,7 @@ async def help(ctx):
 @bot.command()
 async def lovefight(ctx, *args):
     await ctx.send(f"**{ctx.message.mentions[0]}** you have been challenged by **{ctx.message.author}** do you accept?")    
-#here is themusic bot part
+#here is the music bot part. In order to run, it does require ffmpeg.
 players = {}
 queues = {}
 
